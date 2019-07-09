@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import './ScatCard.scss';
 
 import PropTypes from 'prop-types';
 
@@ -18,11 +21,13 @@ class ScatCard extends React.Component {
 
   render() {
     const { scat } = this.props;
+    const singleLink = `/scat/${scat.id}`;
     return (
       <div className="ScatCard col-4">
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">{scat.sampleName}</h5>
+            <Link className="btn btn-success" to={singleLink}>View</Link>
             <p className="card-text">{scat.location}</p>
             <button className="btn btn-danger" onClick={this.deleteMe}>Delete</button>
           </div>
