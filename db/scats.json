@@ -1,0 +1,45 @@
+{
+  "scats": {
+    "scat1": {
+      "location" : "NSS",
+      "weight" : "12g",
+      "color" : "brown",
+      "sampleName" : "Toxic Sample #1",
+      "animal" : "Michael",
+      "uid" : "mv0GHmnOTeTKU2d6SnbWJIDL9a52"
+    },
+    "scat2": {
+      "location" : "NSS",
+      "weight" : "10g",
+      "color" : "black",
+      "sampleName" : "Toxic Sample #2",
+      "animal" : "Rob",
+      "uid" : "mv0GHmnOTeTKU2d6SnbWJIDL9a52"
+    },
+    "scat3": {
+      "location" : "NSS",
+      "weight" : "20g",
+      "color" : "red",
+      "sampleName" : "Toxic Sample #3",
+      "animal" : "Carl",
+      "uid" : "12345"
+    },
+    "scat4": {
+      "location" : "NSS",
+      "weight" : "5g",
+      "color" : "green",
+      "sampleName" : "Toxic Sample #4",
+      "animal" : "Greg",
+      "uid" : "mv0GHmnOTeTKU2d6SnbWJIDL9a52"
+    },
+    "scat5": {
+      "location" : "NSS",
+      "weight" : "10g",
+      "color" : "yellow",
+      "sampleName" : "Toxic Sample #5",
+      "animal" : "John",
+      "uid" : "12345"
+    }
+  }
+  
+}
