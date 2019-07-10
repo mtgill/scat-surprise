@@ -20,4 +20,11 @@ const deleteScat = scatId => axios.delete(`${fbUrl}/scats/${scatId}.json`);
 
 const getSingleScat = scatId => axios.get(`${fbUrl}/scats/${scatId}.json`);
 
-export default { getScats, deleteScat, getSingleScat };
+const postScat = newScat => axios.post(`${fbUrl}/scats.json`, newScat);
+
+export default {
+  getScats,
+  deleteScat,
+  getSingleScat,
+  postScat,
+};
