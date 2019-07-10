@@ -22,9 +22,12 @@ const getSingleScat = scatId => axios.get(`${fbUrl}/scats/${scatId}.json`);
 
 const postScat = newScat => axios.post(`${fbUrl}/scats.json`, newScat);
 
+const putScat = (updatedScat, scatId) => axios.put(`${fbUrl}/scats/${scatId}.json`, updatedScat);
+
 export default {
   getScats,
   deleteScat,
   getSingleScat,
   postScat,
+  putScat,
 };
